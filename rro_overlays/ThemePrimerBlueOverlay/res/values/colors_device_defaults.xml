@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2020 The Proton AOSP Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources>
+    <!--
+        Primer Design System
+        https://primer.style/css/support/color-system
+    -->
+
+    <!-- color-bg-canvas -->
+    <color name="background_device_default_light">#ffffff</color>
+    <color name="background_device_default_dark">#0d1117</color>
+
+    <!-- color-bg-overlay; used for notifications and QS -->
+    <color name="background_floating_device_default_light">#ffffff</color>
+    <color name="background_floating_device_default_dark">#1c2128</color>
+    <color name="background_floating_material_light">#ffffff</color>
+    <color name="background_floating_material_dark">#1c2128</color>
+    <color name="GM2_grey_800">#1c2128</color>
+
+    <!-- color-text-link -->
+    <color name="accent_device_default_light">#0366d6</color>
+    <color name="accent_device_default_dark">#58a6ff</color>
+
+    <!-- color-border-overlay -->
+    <color name="list_divider_color_light">#e1e4e8</color>
+    <color name="list_divider_color_dark">#30363d</color>
+
+    <!-- color-text-danger -->
+    <color name="error_color_device_default_light">#cb2431</color>
+    <color name="error_color_device_default_dark">#f85149</color>
+
+    <!-- color-bg-canvas-inverse -->
+    <color name="edge_effect_device_default_light">#24292e</color>
+    <color name="edge_effect_device_default_dark">#f0f5fc</color>
+
+    <!--
+        Android parts
+    -->
+
+    <!-- Settings -->
+    <color name="primary_device_default_settings_light">@color/background_device_default_light</color>
+    <color name="primary_dark_device_default_light">@color/background_device_default_light</color>
+    <color name="primary_dark_device_default_settings">@color/background_device_default_dark</color>
+    <color name="primary_dark_device_default_settings_light">@color/background_device_default_light</color>
+</resources>

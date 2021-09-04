@@ -181,6 +181,9 @@ PRODUCT_PACKAGES += \
 endif
 endif
 
+# RRO Overlays
+$(call inherit-product, vendor/mtkosp/config/rro_overlays.mk)
+
 # Dex preopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI
