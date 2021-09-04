@@ -1,3 +1,5 @@
 # RRO Overlays
 PRODUCT_PACKAGES += \
-    ThemePrimerBlueOverlay
+    ThemePrimerBlueOverlay \
+    IconShapeRoundedRect2Overlay \
+    IconShapeRoundedOverlay
